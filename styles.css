@@ -203,3 +203,8 @@ footer a {
   background-color: var(--news-flash);
   text-decoration: none;
 }
+
+footer small {
+  justify-content: center;
+  color:#E63946;
+}
