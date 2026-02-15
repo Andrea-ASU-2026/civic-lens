@@ -38,15 +38,18 @@ body.dark-mode {
   cursor: pointer;
 }
 
-#main {
+/* TEST DELETE DELETE */
+main {
   background-color: purple;
 }
+/* TEST DELETE DELETE */
 
 /* ///ADD/// Skip Link Styles */
 
 #skip {
   position: absolute;
   left: -10000px;
+  top: auto;
   width: 1px;
   height: 1px;
   overflow: hidden;
