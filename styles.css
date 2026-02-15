@@ -140,7 +140,10 @@ nav li {
 }
 
 /* ///ADD/// Global Layout Styles */
-
+#featuredArticles section {
+max-width: 350px;
+  margin: 0 auto 3rem auto;
+}
 /* ///ADD/// Global Text Styles */
 
 
@@ -175,6 +178,7 @@ nav li {
 
 /* Footer */
 footer{
+  
   background-color: var(--blue-bulletin);
   color: var(--white);
   padding: 2rem 1rem 1rem 1rem;
@@ -199,9 +203,10 @@ footer h2 {
 }
 
 footer a {
+
   text-decoration:none;
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
   margin: 1rem;
   background-color: var(--news-flash);
   color: var(--watchdog-white);
