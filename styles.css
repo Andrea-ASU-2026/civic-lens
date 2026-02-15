@@ -88,7 +88,7 @@ body.dark-mode {
 
 /* TEST DELETE DELETE */
 main {
-  background-color: blue;
+  background-color: red;
 }
 /* TEST DELETE DELETE */
 
@@ -143,4 +143,44 @@ main {
 
 @supports (selector(:has(*))) {
 
+}
+
+/* Footer */
+footer{
+  background-color: var(--blumine);
+  color: var(--white);
+  padding: 2rem 1rem 1rem 1rem;
+  line-height: 2;
+}
+
+footer section {
+  max-width: 300px;
+  margin: 2rem auto 1rem auto;
+}
+  
+footer section:last-of-type {
+/*  
+  ADD A DISPLAY TO GRID
+  SET THE GRID TEMPLATE TO 1FR 1FR 1FR FOR COLUMNS
+  APPLY A GRID GAP OF 0.5REM
+  JUSTIFY THE ITEMS TO THE CENTER
+*/  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: .5rem;
+  justify-items: center;
+}
+
+footer h2 {
+/*  
+  START THE GRID COLUMN AT 1 AND END IT AT -1
+*/  
+  grid-column: 1 / -1;
+  border-top: none;
+  border-bottom: none;
+}
+
+footer a {
+  padding: 0.5rem 0;
+  color: var(--white);
 }
