@@ -38,6 +38,10 @@ body.dark-mode {
   cursor: pointer;
 }
 
+#main {
+  background-color: purple;
+}
+
 /* ///ADD/// Skip Link Styles */
 
 #skip {
