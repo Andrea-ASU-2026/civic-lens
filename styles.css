@@ -211,4 +211,6 @@ footer h2 {
 footer a {
   padding: 0.5rem 0;
   color: var(--white);
+  background-color: var(--news-flash);
+  text-decoration: none;
 }
