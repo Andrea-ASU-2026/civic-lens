@@ -19,7 +19,9 @@
 
   <title>Civic Lens</title>
 </head>
+
 <body>
+
 <!-- ADD semantic and validated HTML -->
 <!-- ADD skip to main content -->
 <a href="#main-content" id="skip">Skip to main content</a>
@@ -32,20 +34,26 @@
     </button>
 
     <header>
-      <div>
+      
+      <div id="headerTitle">
 
       <h1>Civic Lens</h1>
       <p class="tagline">See Clearly. Know Deeply. Act Justly.</p>
       
+      </div>
+        
+       <div id="headerContent">
       <nav class="mobile-nav" aria-label="Mobile Navigation">
         <input type="checkbox" id="menu-toggle" hidden>
         <label for="menu-toggle" class="menu-button">Menu</label>
+        
         <ul class="menu">
           <li><a href="#breaking-news">Breaking News</a></li>
           <li><a href="#featured-aticles">Featured Articles</a></li>
           <li><a href="#alerts">Alerts</a></li>
           <li><a href="#social">Social</a></li>
         </ul>
+        
       </nav>
 
       </div>
@@ -62,7 +70,7 @@
       
       <section id="breakingNews">
       <h2>Breaking News</h2>
-
+      <div id="breakingNewsGrid">
         <section>
         <h3>Federal Investigation Launched into Water Mismanagement in the Southwest</h3>
         <p>The Department of Justice has announced a full investigation into decades of water distribution practices affecting tribal lands and rural communities.</p>
@@ -74,12 +82,14 @@
         <p>Civil rights advocates argue that the bill disenfranchises thousands of voters and potential voters of color and those in rural areas of the country.</p>
         videos/voter-suppression.mp4
         </section>
-
+      
+        </div>
       </section>  
 
       <section id="featuredArticles">
         <h2>Featured Articles</h2>
-
+        
+        <div id="featuredArticlesGrid">
           <section>
             <h3>The Cost of Silence: Whistleblower Stories from Inside Tech Giants</h3>
              <p>Former employees speak out about ethical breaches in data privacy and surveillance.</p>
@@ -139,51 +149,80 @@
              <h3>After the Cameras Leave: Long-Term Crisis Recovery</h3>
              <p>Rebuilding trust and infrastructure in disaster-hit communities.</p>
           </section>
-
+        </div>
       </section>
       
-      
-
+   
       <section id="stayInformed"> 
+        
       <h2>Stay Informed. Stay Empowered.</h2>
+        
        <p>Receive text messages with the news you want to know.</p>
-        <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
         
-          <label for="fullName">Name<span aria-hidden="true" class="required">*</span></label>
-	        <input type="text" id="fullName" name="fullName" required>
-
-          <label for="phone">Mobile<span aria-hidden="true" class="required">*</span></label>
-				  <input type="tel" id="phone" name="phone" required>
-        
+        <div id="stayInformedForm">
           
-          <label for="notificationPreferences">Notification preference<span aria-hidden="true" class="required">*</span></label>  
-          <select id="notificationPreferences" name="notificationPreferences" required>
-            <option value="">Select notification preference</option>
-            <option value="breakingNews">Breaking News</option>
-            <option value="politics">Politics</option>
-            <option value="weather">Weather</option>
-            <option value="sports">Sports</option>
-            <option value="entertainment">Entertainment</option>
-            <option value="world">World</option>
-            <option value="financial">Financial</option>
-          </select>
+          <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
         
+            <label for="fullName">Name<span aria-hidden="true" class="required">*</span></label>
+            <input type="text" id="fullName" name="fullName" required>
+
+            <label for="phone">Mobile<span aria-hidden="true" class="required">*</span></label>
+            <input type="tel" id="phone" name="phone" required>
+        
+            <fieldset>
+              
+              <legend>Notification preference<span aria-hidden="true" class="required">*</span></legend>  
+           
+              
+              <input type="checkbox" id="breakingNews" name="notificationPreferences" value="breakingNews">
+              <label for="breakingNews">Breaking News</label>
+              
+              <input type="checkbox" id="politics" name="notificationPreferences" value="politics">
+              <label for="politics">Politics</label>
+              
+              <input type="checkbox" id="weather" name="notificationPreferences" value="weather">
+              <label for="weather">Weather</label>
+              
+              <input type="checkbox" id="sports" name="notificationPreferences" value="sports">
+              <label for="sports">Sports</label>
+              
+              <input type="checkbox" id="entertainment" name="notificationPreferences" value="entertainment">
+              <label for="entertainment">Entertainment</label>
+              
+              <input type="checkbox" id="world" name="notificationPreferences" value="world">
+              <label for="world">World</label>
+              
+              <input type="checkbox" id="financial" name="notificationPreferences" value="financial">
+              <label for="financial">Financial</label>
+         
+             </fieldset>
+               
           <input type="submit" id="subscribe" name="subscribe" value="Subscribe">
 
         </form>
+              
+        </div>
       </section>
     </main>  
 
     <footer>
-      <section>
-      <h2>Follow Us</h2>
-        <a href="#">Twitter/X</a>
-        <a href="#">Instagram</a>
-        <a href="#">YouTube</a>
-        <a href="#">TikTok</a>
-        <a href="#">LinkedIn</a>
-     </section>
-      <small>&copy; 2025 Civic Lens. All rights reserved.</small>
+      
+  
+      <div id="followUs">
+        
+        <h2>Follow Us</h2>
+        
+          <section>
+            <a href="#">Twitter/X</a>
+             <a href="#">Instagram</a>
+             <a href="#">YouTube</a>
+             <a href="#">TikTok</a>
+             <a href="#">LinkedIn</a>
+           </section>
+        
+            <small>&copy; 2025 Civic Lens. All rights reserved.</small>
+        
+       </div> 
      </footer>  
      
   <script>
