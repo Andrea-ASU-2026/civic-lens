@@ -253,6 +253,12 @@ blockquote {
   color: #F1FAEE;
 }
 
+#breakingNewsGrid video {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 /* FEATURED ARTICLES STYLES */
 
 #featuredArticlesGrid {
