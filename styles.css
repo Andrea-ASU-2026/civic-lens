@@ -257,7 +257,7 @@ blockquote {
   display: grid;
   grid-template-rows: 1fr;
   padding: 2rem;
-  width: 100%;
+  width: 80%;
   height: auto;
 }
 
