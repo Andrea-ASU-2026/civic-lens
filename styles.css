@@ -237,6 +237,9 @@ blockquote {
 }
 
 #breakingNewsGrid section {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 1rem;
   background-color: var(--news-flash);
   box-shadow: var(--shadow);
   padding: 1rem;
@@ -253,8 +256,9 @@ blockquote {
   color: #F1FAEE;
 }
 
-#breakingNewsGrid video {
-  display: block;
+#breakingNewsGrid section video {
+  justify-self: center;
+  align-self: start;
   width: 100%;
   height: auto;
   padding-top: 0rem 1rem;
