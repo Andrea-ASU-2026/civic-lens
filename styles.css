@@ -255,9 +255,10 @@ blockquote {
 
 #breakingNewsGrid video {
   display: block;
-  max-width: 40%;
+  width: 80%;
   height: auto;
   padding-top: 2rem;
+  margin: 0 auto;
 }
 
 /* FEATURED ARTICLES STYLES */
