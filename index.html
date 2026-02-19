@@ -21,7 +21,6 @@
 </head>
 
 <body>
-
 <!-- ADD semantic and validated HTML -->
 <!-- ADD skip to main content -->
 <a href="#main-content" id="skip">Skip to main content</a>
@@ -162,40 +161,57 @@
         <div id="stayInformedForm">
           
           <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
-        
+            
+            <div class="nameMobileGroup">
             <label for="fullName">Name<span aria-hidden="true" class="required">*</span></label>
             <input type="text" id="fullName" name="fullName" required>
-
+            </div> 
+              
+            <div class="nameMobileGroup">
             <label for="phone">Mobile<span aria-hidden="true" class="required">*</span></label>
             <input type="tel" id="phone" name="phone" required>
-        
+            </div>
+              
             <fieldset>
               
               <legend>Notification preference<span aria-hidden="true" class="required">*</span></legend>  
            
+              <div class="checkbox">
+              <input type="checkbox" id="breakingNews" name="notificationPreferences" value="breakingNews">
+              <label for="breakingNews">Breaking News</label>
+              </div>
               
-              <input type="checkbox" id="breaking" name="notificationPreferences" value="breaking">
-              <label for="breaking">Breaking News</label>
-              
+              <div class="checkbox">
               <input type="checkbox" id="politics" name="notificationPreferences" value="politics">
               <label for="politics">Politics</label>
+              </div>
               
+              <div class="checkbox">
               <input type="checkbox" id="weather" name="notificationPreferences" value="weather">
               <label for="weather">Weather</label>
+              </div>
               
+              <div class="checkbox">
               <input type="checkbox" id="sports" name="notificationPreferences" value="sports">
               <label for="sports">Sports</label>
+              </div>
               
+              <div class="checkbox">  
               <input type="checkbox" id="entertainment" name="notificationPreferences" value="entertainment">
               <label for="entertainment">Entertainment</label>
+              </div>
               
+              <div class="checkbox">
               <input type="checkbox" id="world" name="notificationPreferences" value="world">
               <label for="world">World</label>
+              </div>
               
+              <div class="checkbox">
               <input type="checkbox" id="financial" name="notificationPreferences" value="financial">
               <label for="financial">Financial</label>
+              </div>
          
-            </fieldset>
+             </fieldset>
                
           <input type="submit" id="subscribe" name="subscribe" value="Subscribe">
 
@@ -218,7 +234,7 @@
              <a href="#">YouTube</a>
              <a href="#">TikTok</a>
              <a href="#">LinkedIn</a>
-          </div>
+           </div>
         
             <small>&copy; 2025 Civic Lens. All rights reserved.</small>
         
