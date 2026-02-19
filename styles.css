@@ -255,8 +255,8 @@ blockquote {
 
 #breakingNewsGrid video {
   display: grid;
-  grid-template-columns: 1fr;
-  padding: 1rem;
+  grid-template-rows: 1fr;
+  padding: 2rem;
   width: 100%;
   height: auto;
 }
