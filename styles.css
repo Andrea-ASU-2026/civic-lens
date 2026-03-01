@@ -200,7 +200,7 @@ p {
 
 body {
   color: var(--watchdog-white);
-  background-color: var(--blue-bulletin);
+  background-color: var(--truth-text);
   line-height: 1.35;
   box-sizing: border-box;
   margin:0;
@@ -448,7 +448,7 @@ footer {
 } 
 
 @media (prefers-reduced-motion: reduce) {
-    .icon {
+    * {
         animation: none;
     }
   }
