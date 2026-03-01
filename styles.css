@@ -229,7 +229,7 @@ blockquote {
 
 /* BREAKING NEWS STYLES */
 
-#breakingNewsGrid {
+#breaking-news-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 1rem;
@@ -237,7 +237,7 @@ blockquote {
   padding-bottom: 1rem;
 }
 
-#breakingNewsGrid section {
+#breaking-news-grid section {
   display: grid;
   grid-template-rows: auto 1fr;
   gap: 1rem;
@@ -247,17 +247,17 @@ blockquote {
   margin: 0;
 }
 
-#breakingNewsGrid h3 {
+#breaking-news-grid h3 {
   color: #F1FAEE;
   padding-bottom: 10px;
   border-bottom: 2px solid var(--watchdog-white);
 }
 
-#breakingNewsGrid p {
+#breaking-news-grid p {
   color: #F1FAEE;
 }
 
-#breakingNewsGrid section video {
+#breaking-news-grid section video {
   justify-self: center;
   align-self: start;
   width: 100%;
