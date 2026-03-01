@@ -200,6 +200,7 @@ p {
 
 body {
   color: var(--watchdog-white);
+  background-color: var(--blue-bulletin);
   line-height: 1.35;
   box-sizing: border-box;
   margin:0;
@@ -352,7 +353,7 @@ footer {
   width: 100%;
 }
 
-#followUs {
+#social {
   max-width: 1200px;
   margin: 0 auto;
   padding: 1rem;
@@ -360,14 +361,14 @@ footer {
   gap: 1rem;
 }
 
-#followUs div {
+#social div {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: start;
 }
 
-#followUs a {
+#social a {
   padding: .5rem;
   text-decoration: none;
   text-align: center;
@@ -379,7 +380,7 @@ footer {
   font-family: var(--font-body);
 }
 
-#followUs small {
+#social small {
   text-align: center;
 }
 
