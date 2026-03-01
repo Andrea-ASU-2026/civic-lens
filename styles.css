@@ -295,14 +295,14 @@ blockquote {
 
 /* STAY INFORMED STYLES */
 
-#stayInformedForm {
+#alertsForm {
   background-color: var(--news-flash);
   margin: 1rem auto;
   padding: 1rem;
   min-width: 340px;
 }
 
-#stayInformedForm form {
+#alertsForm form {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
@@ -314,7 +314,7 @@ fieldset {
   margin: .5rem 0rem;
 }
 
-#stayInformedForm fieldset {
+#alertsForm fieldset {
  border: 1.5px solid var(--truth-text);
  display: grid;
  grid-template-columns: 1fr;
@@ -388,11 +388,11 @@ footer {
 
 @media screen and (min-width: 620px){
   
-  #stayInformedForm form {
+  #alertsForm form {
     grid-template-columns: 1fr;
   }
 
-  #stayInformedForm fieldset {
+  #alertsForm fieldset {
     grid-template-columns: 1fr;
   }
   
@@ -420,11 +420,11 @@ footer {
 
 @media screen and (min-width: 920px){
   
-    #stayInformedForm form {
+    #alertsForm form {
     grid-template-columns: 1fr 1fr;
   }
 
-  #stayInformedForm fieldset {
+  #alertsForm fieldset {
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -433,7 +433,7 @@ footer {
 
 @media screen and (min-width: 1024px){
   
-  #stayInformedForm fieldset {
+  #alertsForm fieldset {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
