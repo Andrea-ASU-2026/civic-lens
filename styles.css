@@ -442,8 +442,8 @@ footer {
 
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: #333;
-        color: #ddd;
+        background-color: var(--truth-text);
+        color: var(--watchdog-white);
     }
 } 
 
